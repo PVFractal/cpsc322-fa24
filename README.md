@@ -1,1 +1,4 @@
-# cpsc322-fa24
+# cpsc332
+## Fall 2024
+
+This is a README
