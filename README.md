@@ -1,4 +1,4 @@
 # cpsc332
 ## Fall 2024
 
-This is a README
+This is the repo for Web Development
