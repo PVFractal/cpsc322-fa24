@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: 33% 66%;
 }
-.main_profile {
+.profile {
   background-color: blue;
 }
 .others {
