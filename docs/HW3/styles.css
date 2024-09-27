@@ -1,17 +1,102 @@
+body {
+  width: 1000px;
+  background-color: #c2e4af;
+}
+hr {
+  border-color: #002d09;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 20px;
+}
+a {
+  color: #3053b5;
+  text-decoration:solid
+}
+ul {
+  list-style-type: square;
+  padding-left: 25px;
+}
 
+table {
+  border: 3px, solid;
+  border-color: #002d09;
+}
+td, th {
+  background-color: #00911d;
+  border: 1px solid;
+  border-color: #002d09;
+  padding: 2px;
+}
+th:nth-child(even), td:nth-child(even) {
+  background-color: #639d00;
+}
 
+caption {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
 
 .header-area {
-  background-color: gray;
+  background-color: #a4bc76;
+  display: flex;
+  justify-content: space-between;
+}
+.header-area img {
+  width: 100px;
+}
+#links {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  padding-top: 30px;
 }
 
 .main-container {
   display: grid;
-  grid-template-columns: 33% 66%;
+  grid-template-columns: 45% 55%;
 }
+
 .profile {
-  background-color: blue;
+  background-color: #7d9d69;
+  text-align: left;
+  padding: 10px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #001204
 }
+.summary {
+  font-weight: lighter;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  font-size: large;
+}
+.profile img {
+  border-radius: 30%;
+  box-shadow: 5px 5px #00120468;
+  margin-bottom: 25px;
+  width: 250px;
+}
+
 .others {
-  background-color: beige;
+  background-color: #78cb85;
+  text-align: left;
+  padding: 50px;
+}
+.hobbies {
+  display: grid;
+  grid-template-columns: 15% auto;
+}
+.hobbies h2 {
+  font-family: cursive;
+}
+.hobbies div {
+  margin-bottom: 50px;
+  color:#230c08
+}
+
+.hobbies img {
+  height: 150px;
 }
