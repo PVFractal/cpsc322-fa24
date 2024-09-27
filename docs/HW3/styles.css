@@ -1,6 +1,17 @@
 
 
+
+.header-area {
+  background-color: gray;
+}
+
 .main-container {
   display: grid;
   grid-template-columns: 33% 66%;
+}
+.main_profile {
+  background-color: blue;
+}
+.others {
+  background-color: beige;
 }
